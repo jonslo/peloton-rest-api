@@ -35,4 +35,4 @@ Open-source REST API solution for [Peloton&reg; WellView&reg;](https://www.pelot
   }
 }
 ```
-3. Run application
+3. Run API application
