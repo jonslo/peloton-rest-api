@@ -1,5 +1,5 @@
 # wellrested
-Open-source REST API solution for Peloton&reg; WellView&reg;
+Open-source REST API solution for Peloton&reg; WellView&reg;.  Add a self-managed, customizable web API to your well data management platform.
 
 ## Usage
 1. Build solution
