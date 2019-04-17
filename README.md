@@ -1,5 +1,5 @@
 # wellrested
-Open-source REST API solution for Peloton&reg; WellView&reg;, SiteView&reg;, and RigView&reg;
+Open-source REST API solution for Peloton&reg; WellView&reg;
 
 ## Usage
 1. Build solution
