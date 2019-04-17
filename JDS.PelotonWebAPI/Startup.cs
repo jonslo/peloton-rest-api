@@ -15,6 +15,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Microsoft.Extensions.PlatformAbstractions;
 using Swashbuckle.AspNetCore.Swagger;
+using Swashbuckle.AspNetCore.SwaggerUI;
 
 namespace JDS.PelotonWebAPI
 {
@@ -102,7 +103,7 @@ namespace JDS.PelotonWebAPI
                 {
                     c.PreSerializeFilters.Add((swaggerDoc, httpReq) => swaggerDoc.Host = httpReq.Host.Value);
                 });
-            app.UseSwaggerUI3(c =>
+            app.UseSwaggerUI(c =>
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "Peloton AppFrame API V1");
                 c.InjectStylesheet("/swagger-ui/custom.css");
