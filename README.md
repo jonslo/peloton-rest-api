@@ -36,3 +36,4 @@ Open-source REST API solution for [Peloton&reg; WellView&reg;](https://www.pelot
 }
 ```
 3. Run API application
+4. Open <localhost:port>/docs in browser for Swagger UI docs
